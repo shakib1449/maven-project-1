@@ -10,8 +10,7 @@
 
 
 
-< Be perfect in jenkins >an wawnmkc  
+< Be perfect in jenkins >
+Now start docker tommrow and complete hardware work and start working in devops if possible
 
-eshfbkebfkjbekfjbkjbfkhfWEKJFBwehfuhWKEJFBJKwefbkjew;FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-fghjevWKEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEF
-hjwfvLHFGhjevfIOEHGjehfbhjehkh.jekfhefkjlEFGeukfhHEVFehflhejvFHFvjhvfbkjbevfjhgakbvgiau;hghbgblksbugwifilhsbhjvsjbvlsjvgsivbksnfhfvkjlgjsgvbhjlsbvkjslvkhjsdvglsjkvbksjvsjkldhvhbeljfblskbvjlhbselhjabshsdbbvhsdhvbbvhbvhhbdbbhhvbvhdbvdhhdbvdbhhbdvbdvbhvdbhbdvhdbhvbvhdbhsvbhjlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll                    
+
