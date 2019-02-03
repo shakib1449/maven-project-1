@@ -2,14 +2,13 @@ pipeline{
     agent any
     stage('intialize'){
         steps{
-            sh 
-            echo "path=${path}"
-            echo "m2_home=${m2_home}"
+            echo "Intalizing the code file"
+            
     }    }
     
     stage('build'){
         steps{
-            echo 'HELLO WORLD'
+            echo "HELLO WORLD"
         }
     }
 } 
