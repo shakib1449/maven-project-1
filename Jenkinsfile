@@ -1,13 +1,14 @@
 pipeline{
     agent any
-    stages('intialize'){
-        steps{
+    stages{
+        stage('intialize'){
+        step{
             echo "Intalizing the code file"
             
     }    }
     
-    stages('build'){
-        steps{
+    stage('build'){
+        step{
             echo "HELLO WORLD"
         }
     }
