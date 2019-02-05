@@ -12,7 +12,7 @@ pipeline{
             echo "Archieving the artifacts"
             archieveArtifacts artifacts: '**/*.war'
         }
-     }
+      }
     }
-}
+  }
  }
