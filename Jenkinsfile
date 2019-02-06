@@ -30,7 +30,7 @@ pipeline {
                     input message: 'Approve PRODUCTION Deployment?'
                 }
                 
-                build job : 'Deploy-Production-Pipeline'
+                build job : 'Deploy-servelet-Production-Pipeline'
             }
 
             post{
