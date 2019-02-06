@@ -16,7 +16,7 @@ pipeline {
 
                     archiveArtifacts artifacts : '**/*.war'
                 }
-            }
+        }
              stage ('Deploy Build in Staging Area'){
             steps{
 
@@ -25,6 +25,6 @@ pipeline {
             }
          }
               
-        } 
+        
     }
 }
