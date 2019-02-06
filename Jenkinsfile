@@ -17,6 +17,12 @@ pipeline {
                     archiveArtifacts artifacts : '**/*.war'
                 }
             }
+            stage ('Deploy on stagging environment'){
+                steps{
+                    build job:'Deploy-servelet-pipeline'
+                }
+            }
+              
         } 
     }
 }
