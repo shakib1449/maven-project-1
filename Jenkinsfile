@@ -15,7 +15,7 @@ pipeline {
                     echo 'Now Archiving ....'
 
                     archiveArtifacts artifacts : '**/*.war'
-                }
+            }  }
         }
              stage ('Deploy Build in Staging Area'){
             steps{
@@ -23,8 +23,7 @@ pipeline {
                 build job : 'Deploy-servelet-pipeline'
 
             }
-         }
+          }
               
-        
     }
 }
