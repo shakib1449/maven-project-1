@@ -24,20 +24,24 @@ pipeline {
 
             }
           }
-          stage('Deploy to production'{
-              steps{
-                  timeout(time:5,units:'Days'){
-                      input message: 'Approve Production Deployment'
-                  } 
-                  build job : 'Deploy-servelet-production-pipeline'
+          stage ('Deploy to Production'){
+            steps{
+                timeout (time: 5, unit:'DAYS'){
+                    input message: 'Approve PRODUCTION Deployment?'
+                }
+                
+                build job : 'Deploy-Production-Pipeline'
             }
+
             post{
                 success{
-                    echo 'Deployment of production is sucessful'
+                    echo 'Deployment on PRODUCTION is Successful'
                 }
+
                 failure{
-                    echo'Deployment of production is failure'
+                    echo 'Deployement Failure on PRODUCTION'
                 }
             }
-        }  
-  }
+        }
+    }
+}
