@@ -30,7 +30,7 @@ pipeline {
                       input message: 'Approve Production Deployment'
                   } 
                   build job : 'Deploy-servelet-production-pipeline'
-              }
+            }
             post{
                 success{
                     echo 'Deployment of production is sucessful'
@@ -39,6 +39,5 @@ pipeline {
                     echo'Deployment of production is failure'
                 }
             }
-          }
-    }
-}
+        }  
+  }
